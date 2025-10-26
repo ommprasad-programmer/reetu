@@ -1,6 +1,6 @@
 
 
-const targetDate = new Date("16 September 2025 11:59:00").getTime();
+const targetDate = new Date("27 October  2025 00:00:00").getTime();
 const countdownWrapper = document.getElementById("countdown-wrapper");
 
 const countdownInterval = setInterval(() => {
@@ -353,4 +353,5 @@ const animationTimeline = () => {
     replyBtn.addEventListener("click", () => {
         tl.restart();
     });
+
 }
